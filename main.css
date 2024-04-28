@@ -1,0 +1,86 @@
+.TitlePag {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Bloco-img-txt {
+    display: flex;
+}
+
+.Txt-Anime {
+    background-image: url(BackgroudTxt.png);
+    background-size: cover;
+    background-position: center;
+    height: 382px;
+    width: 636px;
+}
+
+.Txt-MesmaLinha {
+    display: flex;
+}
+
+.Generos,
+.Ano {
+    margin-right: 2px;
+}
+
+.Generos {
+    font-family: 'Poppins';
+    font-size: 15.13px;
+    font-weight: 500;
+    color: #4B4B4B;
+    padding-left: 80px;
+    
+}
+
+.Ano {
+    font-family: 'Poppins';
+    font-size: 15.13px;
+    font-weight: 500;
+    color: #4B4B4B;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.TitleParagrafo {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 23.7px;
+    color: #313131;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.Descricao {
+    font-family: 'Poppins';
+    font-size: 17.99px;
+    font-weight: 400;
+    color: #6E6E6E;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.Eps,
+.OndeAssistir {
+    margin-right: 1px;
+}
+
+.Eps {
+    font-family: 'Poppins';
+    font-size: 15.13px;
+    font-weight: 500;
+    color: #6E6E6E;
+    padding-left: 80px;
+    
+}
+
+.OndeAssistir {
+    font-family: 'Poppins';
+    font-size: 15.13px;
+    font-weight: 700;
+    color: #313131;
+    padding-left: 80px;
+    padding-right: 80px;
+}
