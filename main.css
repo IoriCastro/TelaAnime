@@ -1,15 +1,178 @@
-.TitlePag {
+body {
     font-family: 'Poppins';
+}
+
+/* Primeira pagina*/
+
+.title {
+    text-align: left;
+}
+
+.apresentação {
+    color: #FFF;
+    font-family: Varela;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 95px;
+    /* 237.5% */
+    letter-spacing: 3px;
+    width: 600px;
+    height: 200px;
+    flex-shrink: 0;
+    padding: 30px;
+}
+
+.apresentação2 {
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 20;
+    line-height: 5px;
+    /* 10% */
+    letter-spacing: 0.5px;
+    width: 600px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.btn1 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0, 5s;
+}
+
+.btn1:hover {
+    color: aqua;
+}
+
+.btn2 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0, 5s;
+}
+
+.btn2:hover {
+    color: aqua;
+}
+
+.btn3 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0, 5s;
+}
+
+.btn3:hover {
+    color: aqua;
+}
+
+.btn4 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0, 5s;
+}
+
+.btn4:hover {
+    color: aqua;
+}
+
+.btn5 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    letter-spacing: 0.5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0, 5s;
+}
+
+.btn5:hover {
+    color: rgb(56, 235, 255);
+}
+
+.flex-container {
+    display: flex;
+    list-style: none;
+    width: 98%;
+    align-content: center;
+    text-align: center;
+    flex-direction: row-reverse
+}
+
+.box1 {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(Imagens/Fundo.jpg);
+}
+
+
+/* Segunda Pagina*/
+
+.TitlePag {
     font-size: 24px;
     font-weight: 600;
 }
 
-.Bloco-img-txt {
+.box {
     display: flex;
 }
 
+.linhaInicio {
+    width: 21px;
+    height: 2px;
+    background-color: #313131;
+    margin-bottom: 60px;
+}
+
+.linhaResto {
+    width: 1252px;
+    background-color: #D6D6D6;
+    margin-bottom: 60px;
+}
+
+
 .Txt-Anime {
-    background-image: url(BackgroudTxt.png);
+    background-image: url(Imagens/BackgroudTxt.png);
     background-size: cover;
     background-position: center;
     height: 382px;
@@ -26,16 +189,13 @@
 }
 
 .Generos {
-    font-family: 'Poppins';
     font-size: 15.13px;
     font-weight: 500;
     color: #4B4B4B;
     padding-left: 80px;
-    
 }
 
 .Ano {
-    font-family: 'Poppins';
     font-size: 15.13px;
     font-weight: 500;
     color: #4B4B4B;
@@ -44,7 +204,6 @@
 }
 
 .TitleParagrafo {
-    font-family: 'Poppins';
     font-weight: 700;
     font-size: 23.7px;
     color: #313131;
@@ -53,7 +212,6 @@
 }
 
 .Descricao {
-    font-family: 'Poppins';
     font-size: 17.99px;
     font-weight: 400;
     color: #6E6E6E;
@@ -62,25 +220,20 @@
     padding-right: 80px;
 }
 
-.Eps,
-.OndeAssistir {
-    margin-right: 1px;
-}
-
 .Eps {
-    font-family: 'Poppins';
+
     font-size: 15.13px;
     font-weight: 500;
     color: #6E6E6E;
     padding-left: 80px;
-    
+    margin-right: 1px;
 }
 
 .OndeAssistir {
-    font-family: 'Poppins';
     font-size: 15.13px;
     font-weight: 700;
     color: #313131;
     padding-left: 80px;
     padding-right: 80px;
+    margin-right: 1px;
 }
