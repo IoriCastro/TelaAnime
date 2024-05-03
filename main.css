@@ -25,7 +25,6 @@ body {
 
 .apresentação2 {
     color: #FAFAFA;
-    font-family: Poppins;
     font-size: 14px;
     font-style: normal;
     font-weight: 20;
@@ -39,7 +38,6 @@ body {
 
 .btn1 {
     color: #ffffff;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -57,7 +55,6 @@ body {
 
 .btn2 {
     color: #ffffff;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -75,7 +72,6 @@ body {
 
 .btn3 {
     color: #ffffff;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -93,7 +89,6 @@ body {
 
 .btn4 {
     color: #ffffff;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -111,7 +106,6 @@ body {
 
 .btn5 {
     color: #ffffff;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -147,6 +141,11 @@ body {
 
 
 /* Segunda Pagina*/
+
+.segundaPag {
+    margin-left: 35px;
+}
+
 
 .TitlePag {
     font-size: 24px;
@@ -192,23 +191,23 @@ body {
     font-size: 15.13px;
     font-weight: 500;
     color: #4B4B4B;
-    padding-left: 80px;
+    margin-left: 80px;
 }
 
 .Ano {
     font-size: 15.13px;
     font-weight: 500;
     color: #4B4B4B;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .TitleParagrafo {
     font-weight: 700;
     font-size: 23.7px;
     color: #313131;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .Descricao {
@@ -216,8 +215,8 @@ body {
     font-weight: 400;
     color: #6E6E6E;
     text-align: justify;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .Eps {
@@ -225,7 +224,7 @@ body {
     font-size: 15.13px;
     font-weight: 500;
     color: #6E6E6E;
-    padding-left: 80px;
+    margin-left: 80px;
     margin-right: 1px;
 }
 
@@ -234,6 +233,5 @@ body {
     font-weight: 700;
     color: #313131;
     padding-left: 80px;
-    padding-right: 80px;
-    margin-right: 1px;
+    margin-right: 80px;
 }
